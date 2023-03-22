@@ -1,0 +1,16 @@
+{
+    "name": "Attribute",
+    "alias": "attribute",
+    "description": "Attributes - Laravel module.",
+    "keywords": [
+        "attribute-module",
+        "laravel-module",
+        "solomon-ochepa",
+        "oki technologies ltd"
+    ],
+    "priority": 0,
+    "providers": [
+        "Modules\\Attribute\\app\\Providers\\AttributeServiceProvider"
+    ],
+    "files": []
+}
