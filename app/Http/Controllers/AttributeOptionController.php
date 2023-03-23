@@ -3,12 +3,12 @@
 namespace Modules\Attribute\app\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Modules\Attribute\app\Models\Attribute;
+use Modules\Attribute\app\Models\AttributeOption;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-class AttributeController extends Controller
+class AttributeOptionController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -37,7 +37,7 @@ class AttributeController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Attribute $attribute): Response
+    public function show(AttributeOption $attributeOption): Response
     {
         //
     }
@@ -45,7 +45,7 @@ class AttributeController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Attribute $attribute): Response
+    public function edit(AttributeOption $attributeOption): Response
     {
         //
     }
@@ -53,7 +53,7 @@ class AttributeController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Attribute $attribute): RedirectResponse
+    public function update(Request $request, AttributeOption $attributeOption): RedirectResponse
     {
         //
     }
@@ -61,7 +61,7 @@ class AttributeController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Attribute $attribute): RedirectResponse
+    public function destroy(AttributeOption $attributeOption): RedirectResponse
     {
         //
     }
