@@ -3,7 +3,6 @@
 namespace Modules\Attribute\database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Illuminate\Database\Eloquent\Model;
 
 class AttributeDatabaseSeeder extends Seeder
 {
@@ -14,8 +13,10 @@ class AttributeDatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Model::unguard();
-
-        // $this->call("OthersTableSeeder");
+        $this->call([
+            AttributeSeeder::class,
+            AttributeOptionSeeder::class,
+            AttributableSeeder::class
+        ]);
     }
 }
